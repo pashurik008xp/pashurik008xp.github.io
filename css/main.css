@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+body {
+  background-color: #EAE5E5;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialised; }
+
+
+
+
+.main_head{
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.section_img{
+  text-align: center;
+}
+.is_image > img{
+  width: 340px;
+  height: 310px;
+  border-radius: 50%;
+  box-shadow: 1px 5px 10px -5px black;
+}
+
+
+
+
+.block{
+  margin-top: 10px;
+}
+.block p span{
+  font-size: 25px;
+  font-family: "Roboto Slab", serif;
+}
+.block p {
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+}
+.block_1 > .block_mnu > ul{
+  justify-content: center;
+  margin-bottom: 90px;
+}
+.cont{
+  text-align: center;
+  margin-bottom: 160px;
+}
+.block_mnu ul{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  list-style-type: none;
+  font-size: 16px;
+}
+.block_mnu ul li a{ 
+  padding: 7px 15px
+}
+.block_mnu a{
+  color: rgb(158, 157, 157);
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+}
+.block_mnu li.active a {
+  background: #29BFAD;
+  color: #3E3F49;
+}
+.block_mnu > ul > li {
+  margin-left: 1px;
+  text-decoration: none;
+}
+.block_mnu li a:hover {
+  background-color: #29BFAD;
+  color: #3E3F49;
+  box-shadow: 1px 5px 10px -5px black;
+  transition: all 0.4s ease;
+}
+.post ul{
+  font-family: "Roboto Slab", serif;
+  list-style-type: none;
+  font-size: 16px;
+  margin: 15px 3px 25px;
+}
+.post span{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.post ul li{
+  line-height: 2;
+}
+
+
+
+footer {
+  background-color: #242424;
+  padding: 30px 0 10px;
+  color: #797f93;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.foot > .right > p{
+ font-family: "RobotoRegular", sans-serif;
+}
+.social a {
+  margin: 23px 0 10px;
+  color: #fff;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 26px;
+  text-align: center;
+  border: #fff 2px solid;
+  -webkit-border-radius: 10em;
+  border-radius: 10em;
+  margin-right: 3px;
+  -webkit-transition: opacity .25s ease,color .25s ease,border-color .25s ease;
+  -o-transition: opacity .25s ease,color .25s ease,border-color .25s ease;
+  transition: opacity .25s ease,color .25s ease,border-color .25s ease;
+  opacity: .6;
+}
+
+
